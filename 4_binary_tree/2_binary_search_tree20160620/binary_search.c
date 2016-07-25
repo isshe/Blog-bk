@@ -261,6 +261,7 @@ int delete_node(BTnode_s **root, int value)
 
      if (temproot == NULL)
      {
+         printf("无此数据!\n");
          return -1;
      }
 
